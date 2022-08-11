@@ -3,7 +3,7 @@ import os
 
 
 def format_metrics_yml_file(namespace, metric_dict, file_name):
-    if file_name == "auto_scaling.json" or file_name == "billing.json" or file_name == "dynamo_db.json" \
+    if file_name == "clone.json" or file_name == "billing.json" or file_name == "dynamo_db.json" \
             or file_name == "ebs.json" or file_name == "ec2.json" or file_name == "elasti_cache.json" \
             or file_name == "events.json" or file_name == "lambda.json" or file_name == "logs.json" \
             or file_name == "network_elb.json" or file_name == "rds.json" or file_name == "s3.json" \
